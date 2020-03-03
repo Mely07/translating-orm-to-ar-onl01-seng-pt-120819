@@ -13,5 +13,4 @@ class SQLRunner
   end
 end
 
-class Dog < ActiveRecord::Base
-end
+
