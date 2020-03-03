@@ -13,9 +13,11 @@ DB = ActiveRecord::Base.establish_connection(
 
   DB = ActiveRecord::Base.connection
 
-class Dog < ActiveRecord::Base
-end
+
 
   if ENV["ACTIVE_RECORD_ENV"] == "test"
     ActiveRecord::Migration.verbose = false
   end
+
+class Dog < ActiveRecord::Base
+end
